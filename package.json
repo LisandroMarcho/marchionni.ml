@@ -1,0 +1,19 @@
+{
+  "name": "marchionni.ml",
+  "version": "1.0.0",
+  "description": "Portfolio Website builted in NextJS",
+  "main": "index.js",
+  "repository": "https://github.com/LisandroMarcho/marchionni.ml.git",
+  "author": "LisandroMarcho <djlm2140@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "dev": "next dev src",
+    "start": "next build && next start src",
+    "export": " next build src && next export src -o dist"
+  },
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
