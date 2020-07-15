@@ -4,7 +4,7 @@ import ContactForm from '../components/ContactForm'; //eslint-disable-line
 export default function () {
   return (
     <>
-    <Layout pageTitle="Contacto" bgColor="white" textColor="#292A2E">
+    <Layout pageTitle="Contacto" bgColor="#ECECEC" textColor="#292A2E">
       <img className="figura circulitos" src="img/circulitos.svg" />
       <img className="figura lineas-grid" src="img/lineas-grid.svg" />
       <ContactForm />
