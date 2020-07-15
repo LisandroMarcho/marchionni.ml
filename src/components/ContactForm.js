@@ -36,7 +36,7 @@ export default function ContactForm() {
         box-sizing: border-box;
         border: none;
         border-radius: 4px;
-        background-color: #e5e5e5;
+        background-color: #DADADA;
         padding: 6px 12px;
         font-family: Montserrat, sans-serif;
         font-size: 1rem;
