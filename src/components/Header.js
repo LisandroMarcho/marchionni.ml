@@ -1,6 +1,12 @@
-import Contact from "./Contact"; //eslint-disable-line
+import Button from './Button'; //eslint-disable-line
+import { useRouter } from 'next/router';
 
 export default function Header() {
+  let isContact = false;
+
+  if (useRouter().pathname == '/contact' || useRouter().pathname == '/success')
+    isContact = true;
+
   return (
     <>
       <header>
@@ -8,7 +14,11 @@ export default function Header() {
           LISANDRO <br /> MARCHIONNI
         </h1>
         <h2 className="subtitle">Web developer</h2>
-        <Contact text="Contacto" />
+        <Button text="Contacto" href={isContact ? '/' : '/contact'}>
+          {isContact
+            ? <><img className="atras" src="img/flecha-atras.svg" /> Atrás</>
+            : <>Contacto <img src="img/flecha.svg" /></>}
+        </Button>
       </header>
       <style jsx>{`
         header {
@@ -29,6 +39,13 @@ export default function Header() {
         .subtitle {
           order: 1;
           color: white;
+        }
+        img {
+          margin: 0 0 -2px 10px;
+          display: inline-block;
+        }
+        img.atras {
+          margin: 0 10px -2px 0;
         }
       `}</style>
     </>

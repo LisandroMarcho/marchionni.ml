@@ -50,7 +50,7 @@ export default function Layout({
           }
           .figura {position: absolute;}
           .cuadrado {top: -45px; left: -62px;}
-          .circulo {top: 567px; left: -96px;}
+          .circulo {bottom: -125px; left: -96px;}
           .triangulo {top: 356px; left: 400px;}
           .lineas {top: -22px; left: 1022px;}
         `}</style>
