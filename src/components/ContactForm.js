@@ -3,7 +3,7 @@ import SubmitButton from './SubmitButton'; //eslint-disable-line
 export default function ContactForm() {
   return (
     <>
-      <form name="contact" method="POST" action="/success" netlify>
+      <form name="contact" method="POST" action="/success" data-netlify="true">
         <h2>¿Quieres hablar conmigo?</h2>
         <input type="hidden" name="form-name" value="contact" />
         <label>Nombre</label>
