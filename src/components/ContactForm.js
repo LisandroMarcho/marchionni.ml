@@ -14,7 +14,7 @@ export default function ContactForm() {
         <input name="subject" placeholder="Asunto de ejemplo"></input>
         <label>Mensaje</label>
         <textarea name="message" placeholder="Mensaje de ejemplo..." rows="7"></textarea>
-        <SubmitButton bgColor="#70C57B">Send form</SubmitButton>
+        <SubmitButton bgColor="#70C57B">Enviar mensaje</SubmitButton>
       </form>
       <style>{`
       form {
