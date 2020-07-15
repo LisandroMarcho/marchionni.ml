@@ -1,4 +1,4 @@
-import Layout from '../layouts/default'; //eslint-disable-line
+import Layout from '../layouts/defaultFullside'; //eslint-disable-line
 import ContactForm from '../components/ContactForm'; //eslint-disable-line
 
 export default function () {
@@ -17,7 +17,7 @@ export default function () {
         transform: translate(-50%,-50%);
       }
       .circulitos {top: 75px; left: 75px;}
-      .lineas-grid {top: 535px; left: 735px;}
+      .lineas-grid {bottom: 50px; right: 50px;}
     `}</style>
     </>
   );

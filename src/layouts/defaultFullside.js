@@ -25,15 +25,12 @@ export default function Layout({
           main {
             position: absolute;
             box-sizing: border-box;
-            height: 89vh;
+            height: 100vh;
             width: 60vw;
             background-color: ${bgColor};
-            top: 50%;
-            transform: translateY(-50%);
             right: 0;
             box-shadow: -20px 20px 0px 0px rgba(15,15,15,.16);
             color: ${textColor};
-            overflow-y: auto;
           }
           .figura {position: absolute;}
           .cuadrado {top: -45px; left: -62px;}

@@ -16,7 +16,7 @@ export default function Header() {
         <h2 className="subtitle">Web developer</h2>
         <Button text="Contacto" href={isContact ? '/' : '/contact'}>
           {isContact
-            ? <><img className="atras" src="img/flecha-atras.svg" /> Atrás</>
+            ? <><img className="atras" src="img/flecha-atras.svg" /> Inicio</>
             : <>Contacto <img src="img/flecha.svg" /></>}
         </Button>
       </header>
